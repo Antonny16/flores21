@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz 21 de Septiembre 🌸</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- Audio -->
+  <audio id="audio" src="{{ url_for('static', filename='audio_recortado_47s_60s.mp3') }}"></audio>
+
+  <!-- Mensaje principal -->
+  <div class="mensaje">
+    <h1>✨🌸 Feliz 21 de Septiembre 🌸✨</h1>
+    <p>Que tengas un hermoso día lleno de alegría y amor 💕🌸</p>
+  </div>
+
+  <!-- Contenedor para flores -->
+  <div id="flores-container"></div>
+
+  <!-- Video final -->
+  <video id="video-final" width="600" muted></video>
+
+  <!-- Mensaje final -->
+  <div id="mensaje-final">💖 Te amo mucho Alexandra Bolívar 💖</div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
